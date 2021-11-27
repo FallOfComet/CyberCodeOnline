@@ -72,7 +72,7 @@
  	 	 	 	"eng": "Terminal"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "請從副本中獲取共3個密鑰碎片,接著至[終端機]進行暴力破解,以取得完整密鑰來進入下個區域",
+ 	 	 	 	"trans": "請從地下城中獲取共3個密鑰碎片,接著至[終端機]進行暴力破解,以取得完整密鑰來進入下個區域",
  	 	 	 	"eng": "To progress to the next area, you need to get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
  	 	 	},
  	 	 	"description": {
@@ -342,7 +342,7 @@
  	 	"segment": {
  	 	 	"locked": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "請從上個地區中的副本獲取共3個密鑰碎片, \r\n然後至[市中心]使用[終端機]暴力破解以獲取完整密鑰來解鎖此地區",
+ 	 	 	 	 	"trans": "請從上個地區中的地下城獲取共3個密鑰碎片, \r\n然後至[市中心]使用[終端機]暴力破解以獲取完整密鑰來解鎖此地區",
  	 	 	 	 	"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
  	 	 	 	}
  	 	 	},
@@ -461,7 +461,7 @@
  	 	 	 	"eng": "Deploy farm bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[掛機]\r\n          消耗一個人工智能核心來放置人工智能機器人協助清理副本,每次僅能放置一個機器人",
+ 	 	 	 	"trans": "[掛機]\r\n          消耗一個人工智能核心來放置人工智能機器人協助清理地下城,每次僅能放置一個機器人",
  	 	 	 	"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
  	 	 	},
  	 	 	"tut": {
@@ -614,7 +614,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "用來獲取完整密鑰的密鑰碎片\r\n                                使用[市中心]的[終端機]來暴力破解 ${segmentDisplayName} 密鑰\r\n                                您可以在副本中獲取3個必需的密鑰碎片 (一般或挑戰皆可),\r\n                                當您獲得3個密鑰碎片,您需要使用[終端機]來暴力破解(合成)，取得完整密鑰來進入下個地區",
+ 	 	 	 	"trans": "用來獲取完整密鑰的密鑰碎片\r\n                                使用[市中心]的[終端機]來暴力破解 ${segmentDisplayName} 密鑰\r\n                                您可以在地下城中獲取3個必需的密鑰碎片 (一般或挑戰皆可),\r\n                                當您獲得3個密鑰碎片,您需要使用[終端機]來暴力破解(合成)，取得完整密鑰來進入下個地區",
  	 	 	 	"eng": "A secret key Fragment used to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
  	 	 	}
  	 	},
@@ -1293,7 +1293,7 @@
  	 	 	 	"eng": "Explore ${zoneName}"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "深入副本以獲取更多的經驗及物品!\r\n                        記得購買醫療用品!副本中戰鬥後不會自動回復",
+ 	 	 	 	"trans": "深入地下城以獲取更多的經驗及物品!\r\n                        記得購買醫療用品!地下城中戰鬥後不會自動回復生命",
  	 	 	 	"eng": "Are you ready? you can test your strength out with normal dungeon, the easiest one.\r\n                        Remember to bring healing item! you won't heal after fights in dungeon"
  	 	 	}
  	 	},
@@ -1304,18 +1304,18 @@
  	 	 	 	 	"keyFragmentDisplayName",
  	 	 	 	 	"expMultiplier"
  	 	 	 	],
- 	 	 	 	"trans": "建議等級:　${maxLevel}+組隊\r\n                    ${expMultiplier}x 倍經驗!\r\n                    挑戰副本,額外物品及經驗\r\n                    掉落 ${keyFragmentDisplayName}\r\n                    等級過低不建議進入",
+ 	 	 	 	"trans": "建議等級:　${maxLevel}+組隊\r\n                    ${expMultiplier}x 倍經驗!\r\n                    挑戰地下城,額外物品及經驗\r\n                    掉落 ${keyFragmentDisplayName}\r\n                    等級過低不建議進入",
  	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Challenge mode dungeon, extra loot and exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Not advised to enter if your level is too low"
  	 	 	},
  	 	 	"startName": {
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "攻堅 ${zoneName}",
+ 	 	 	 	"trans": "攻擊 ${zoneName}",
  	 	 	 	"eng": "attack ${zoneName}"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "您夠強大嗎? 嘗試挑戰副本,\r\n                        在深處會有強大的boss及大量的物品等著您!\r\n                        建議與其他玩家一同探索",
+ 	 	 	 	"trans": "您夠強大嗎? 嘗試挑戰地下城,\r\n                        在深處會有強大的boss及大量的物品等著您!\r\n                        建議與其他玩家一同探索",
  	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
  	 	 	}
  	 	},
@@ -1333,16 +1333,16 @@
  	 	 	 	 	"keyFragmentDisplayName",
  	 	 	 	 	"expMultiplier"
  	 	 	 	],
- 	 	 	 	"trans": "推薦級別：${maxLevel} +與合作社 \r\n                     ${expMultiplier} x更多exp！ \r\n                     幫派模式地牢，額外的戰利品和exp。 \r\n                     老闆滴是罕見的+ \r\n                     如果您的水平太低，並不建議進入",
+ 	 	 	 	"trans": "推薦級別：${maxLevel} +和其他玩家合作 \r\n                     ${expMultiplier} x更多經驗值！ \r\n                     幫派地下城，額外的戰利品和經驗值。 \r\n                     老闆滴是罕見的+ \r\n                     如果您的水平太低，並不建議進入",
  	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${2.3}x more EXP! and 4~5x stronger enemies!\r\n                    Gang mode dungeon, extra loot and exp.\r\n                    *Not for the faint of heart*"
  	 	 	}
  	 	},
  	 	"buttonTut": {
- 	 	 	"trans": "你覺得你足夠強大嗎？ 承擔在地牢中更強大的敵人！ \r\n                         記得買一些治療項目！ 在地牢戰鬥之後，你不會在地牢之後重新",
+ 	 	 	"trans": "您覺得自己足夠強大嗎？ 挑戰地下城中更強大的敵人！ \r\n                         記得購買醫療用品!地下城中戰鬥後不會自動回復生命",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
  	 	},
  	 	"enemyInRoomDoorError": {
- 	 	 	"trans": "在房間裡仍然敵人時，你不能使用門",
+ 	 	 	"trans": "在房間裡仍然敵人時，您不能進入其他房間",
  	 	 	"eng": "You cannot use door while there is still enemy in room"
  	 	},
  	 	"enemyInCrateDoorError": {
@@ -1387,7 +1387,7 @@
  	 	 	"vars": [
  	 	 	 	"segmentDisplayName"
  	 	 	],
- 	 	 	"trans": "在${segmentDisplayName}的副本中獲取三個不同的密鑰碎片,\r\n                這些是用來製作下個地區的完整密鑰\r\n                前往[市中心]的[終端機]製作完整密鑰",
+ 	 	 	"trans": "在${segmentDisplayName}的地下城中獲取三個不同的密鑰碎片,\r\n                這些是用來製作下個地區的完整密鑰\r\n                前往[市中心]的[終端機]製作完整密鑰",
  	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]",
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -1400,26 +1400,26 @@
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "在${segmentDisplayName}的副本中獲取三個不同的密鑰碎片,\r\n                這些是用來製作下個地區的完整密鑰\r\n                前往[市中心]的[終端機]製作完整密鑰",
+ 	 	 	 	"trans": "在${segmentDisplayName}的地下城中獲取三個不同的密鑰碎片,\r\n                這些是用來製作下個地區的完整密鑰\r\n                前往[市中心]的[終端機]製作完整密鑰",
  	 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
  	 	 	}
  	 	},
  	 	"random": {
  	 	 	"clearChallengeDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "副本征服者",
+ 	 	 	 	 	"trans": "地下城征服者",
  	 	 	 	 	"eng": "dungeon warrior"
  	 	 	 	}
  	 	 	},
  	 	 	"clearDungeonCoOp": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "副本好夥伴",
+ 	 	 	 	 	"trans": "地下城好夥伴",
  	 	 	 	 	"eng": "dungeon friends"
  	 	 	 	}
  	 	 	},
  	 	 	"clearDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "副本匍匐者",
+ 	 	 	 	 	"trans": "地下城匍匐者",
  	 	 	 	 	"eng": "dungeon crawler"
  	 	 	 	}
  	 	 	},
@@ -1432,7 +1432,7 @@
  	 	 	 	"eng": "Gain exp"
  	 	 	},
  	 	 	"joinDungeon": {
- 	 	 	 	"trans": "進入副本",
+ 	 	 	 	"trans": "進入地下城",
  	 	 	 	"eng": "Join Dungeon"
  	 	 	},
  	 	 	"killEnemy": {
@@ -1484,7 +1484,7 @@
  	 	 	 	"eng": "Open Crate"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "在地牢中打開4個箱子，讓他們甜蜜的戰利品！",
+ 	 	 	 	"trans": "在地下城中打開4個箱子，讓他們甜蜜的戰利品！",
  	 	 	 	"eng": "Open 4 crates in dungeon to get them sweet loots!"
  	 	 	}
  	 	}
@@ -1916,7 +1916,7 @@
  	 	 	 	"eng": "resource critical"
  	 	 	},
  	 	 	"insufficientFound": {
- 	 	 	 	"trans": "發現不足",
+ 	 	 	 	"trans": "資金不足",
  	 	 	 	"eng": "Insufficient Funds"
  	 	 	},
  	 	 	"insufficientResource": {
@@ -2048,11 +2048,11 @@
  	 	 	},
  	 	 	"leaveDungeon": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "你確定要離開這個地牢嗎？",
+ 	 	 	 	 	"trans": "你確定要離開這個地下城嗎？",
  	 	 	 	 	"eng": "Are you sure you want to leave this dungeon?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "您將無法再次進入此Dungeon實例",
+ 	 	 	 	 	"trans": "您將無法再次進入此地下城",
  	 	 	 	 	"eng": "You will not be able to enter this dungeon instance again"
  	 	 	 	}
  	 	 	}
@@ -2117,7 +2117,7 @@
  	 	},
  	 	"itemInbox": {
  	 	 	"getAllItems": {
- 	 	 	 	"trans": "得到所有物品",
+ 	 	 	 	"trans": "領取所有物品",
  	 	 	 	"eng": "Get All Items"
  	 	 	},
  	 	 	"expireDate": {
@@ -2158,11 +2158,11 @@
  	 	},
  	 	"bank": {
  	 	 	"balance": {
- 	 	 	 	"trans": "平衡",
+ 	 	 	 	"trans": "結餘",
  	 	 	 	"eng": "balance"
  	 	 	},
  	 	 	"deposit": {
- 	 	 	 	"trans": "訂金",
+ 	 	 	 	"trans": "存進",
  	 	 	 	"eng": "Deposit"
  	 	 	},
  	 	 	"withdraw": {
@@ -2177,20 +2177,20 @@
  	 	 	 	"eng": "UPGRADE TO ${upgradeToSlot} SLOTS"
  	 	 	},
  	 	 	"takeItemFromVault": {
- 	 	 	 	"trans": "撤回項目",
+ 	 	 	 	"trans": "提取物品",
  	 	 	 	"eng": "Withdraw Item"
  	 	 	},
  	 	 	"putItemToVault": {
- 	 	 	 	"trans": "存款項目",
+ 	 	 	 	"trans": "存進物品",
  	 	 	 	"eng": "Deposit Item"
  	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDeposit": {
- 	 	 	 	 	"trans": "你想存入多少錢？",
+ 	 	 	 	 	"trans": "您想存入多少錢？",
  	 	 	 	 	"eng": "How much would you like to deposit?"
  	 	 	 	},
  	 	 	 	"selectWithdraw": {
- 	 	 	 	 	"trans": "你想退出多少錢？",
+ 	 	 	 	 	"trans": "您想提取多少錢？",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	},
  	 	 	 	"selectDepositItem": {
@@ -2198,28 +2198,28 @@
  	 	 	 	 	"eng": "How many would you like to put in the vault?"
  	 	 	 	},
  	 	 	 	"selectWithdrawItem": {
- 	 	 	 	 	"trans": "您想從銀行退出多少？",
+ 	 	 	 	 	"trans": "您想從銀行提取多少？",
  	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
- 	 	 	 	"trans": "當你沒有平衡時，你就不能退出。",
+ 	 	 	 	"trans": "當您沒有結餘時，您就不能領取。",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
  	 	 	},
  	 	 	"depositDesc": {
- 	 	 	 	"trans": "將比特幣放入銀行",
+ 	 	 	 	"trans": "將比特幣存進銀行",
  	 	 	 	"eng": "Put Bitcoins into bank"
  	 	 	},
  	 	 	"withdrawDesc": {
- 	 	 	 	"trans": "拿走Bitcoins",
+ 	 	 	 	"trans": "提取比特幣",
  	 	 	 	"eng": "Take Bitcoins out of bank"
  	 	 	},
  	 	 	"putItemToVaultDesc": {
- 	 	 	 	"trans": "將物品放入您的金庫中",
+ 	 	 	 	"trans": "將物品存進您的金庫中",
  	 	 	 	"eng": "Put items into your vault"
  	 	 	},
  	 	 	"takeItemFromVaultDesc": {
- 	 	 	 	"trans": "從你的金庫上拿出物品",
+ 	 	 	 	"trans": "從您的金庫上提取物品",
  	 	 	 	"eng": "Take items out from your vault"
  	 	 	},
  	 	 	"upgradeSlotDesc": {
@@ -2232,7 +2232,7 @@
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "你找到了一個古老的鎖定保險箱，似乎是一個帖子，用一些文字寫在它上面。",
+ 	 	 	 	"trans": "您找到了一個古老的鎖定保險箱，似乎是一個帖子，用一些文字寫在它上面。",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
@@ -2250,29 +2250,29 @@
  	 	},
  	 	"list": {
  	 	 	"longPressToMultiSelect": {
- 	 	 	 	"trans": "長按到多項選擇",
+ 	 	 	 	"trans": "長按可以進行多項選擇",
  	 	 	 	"eng": "Long press to multi-select"
  	 	 	}
  	 	},
  	 	"inventory": {
  	 	 	"items": {
- 	 	 	 	"trans": "項目",
+ 	 	 	 	"trans": "物品",
  	 	 	 	"eng": "items"
  	 	 	},
  	 	 	"secretKeys": {
- 	 	 	 	"trans": "秘密密鑰",
+ 	 	 	 	"trans": "秘密鑰匙",
  	 	 	 	"eng": "secret keys"
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "裝備",
+ 	 	 	 	"trans": "已裝備物品",
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
- 	 	 	 	"trans": "存貨",
+ 	 	 	 	"trans": "背包",
  	 	 	 	"eng": "Inventory"
  	 	 	},
  	 	 	"itemInbox": {
- 	 	 	 	"trans": "項目收件箱",
+ 	 	 	 	"trans": "物品收件箱",
  	 	 	 	"eng": "Item Inbox"
  	 	 	},
  	 	 	"crafting": {
@@ -2322,7 +2322,7 @@
  	 	 	 	"eng": "Unlock"
  	 	 	},
  	 	 	"lock": {
- 	 	 	 	"trans": "鎖",
+ 	 	 	 	"trans": "鎖住",
  	 	 	 	"eng": "Lock"
  	 	 	},
  	 	 	"upgradeModuleTitle": {
@@ -2340,15 +2340,15 @@
  	 	},
  	 	"secretKey": {
  	 	 	"title": {
- 	 	 	 	"trans": "秘密密鑰",
+ 	 	 	 	"trans": "密鑰",
  	 	 	 	"eng": "Secret Keys"
  	 	 	},
  	 	 	"noKeysTitle": {
- 	 	 	 	"trans": "你沒有任何秘密密鑰",
+ 	 	 	 	"trans": "你沒有任何密鑰",
  	 	 	 	"eng": "You don't have any secret keys"
  	 	 	},
  	 	 	"noKeysSubtitle": {
- 	 	 	 	"trans": "您可以從Dungeons獲取密鑰",
+ 	 	 	 	"trans": "您可以從地下城獲取密鑰",
  	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
@@ -2477,7 +2477,7 @@
  	 	 	 	"eng": "purchase"
  	 	 	},
  	 	 	"sell": {
- 	 	 	 	"trans": "賣",
+ 	 	 	 	"trans": "售賣",
  	 	 	 	"eng": "sell"
  	 	 	}
  	 	},
@@ -2751,15 +2751,15 @@
  	 	},
  	 	"dungeon": {
  	 	 	"public": {
- 	 	 	 	"trans": "公共地牢",
+ 	 	 	 	"trans": "公開地下城",
  	 	 	 	"eng": "Public dungeon"
  	 	 	},
  	 	 	"password": {
- 	 	 	 	"trans": "密碼受保護的地牢",
+ 	 	 	 	"trans": "受保護密碼的地下城",
  	 	 	 	"eng": "Password protected dungeon"
  	 	 	},
  	 	 	"enterDungeon": {
- 	 	 	 	"trans": "輸入地牢",
+ 	 	 	 	"trans": "進入地下城",
  	 	 	 	"eng": "Enter Dungeon"
  	 	 	},
  	 	 	"listButton": {
